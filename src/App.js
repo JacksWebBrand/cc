@@ -6,7 +6,7 @@ import ShopPage from './pages/shop/shop.component';
 import Header from './components/header/header.component';
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
 
-function App() {
+export default function App() {
   return (
     <div>
     <Header /> {/*By having header outside the switch below, it will always render, regardless of which page the switch renders */}
@@ -17,6 +17,4 @@ function App() {
       </Switch>
     </div>
   );
-}
-
-export default App;
+};
